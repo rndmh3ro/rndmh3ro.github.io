@@ -1,0 +1,5 @@
+{"env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "version": 2, "width": 190, "height": 45, "timestamp": 1520182230}
+[0.395722, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.486141, "o", "\u001b[1;35m [WARNING]: The `prettytable` python module is not installed. Disabling the HipChat callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.486402, "o", "\u001b[1;35m [WARNING]: HipChat token could not be loaded. The HipChat token can be provided using the `HIPCHAT_TOKEN` environment variable.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[10.390954, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]

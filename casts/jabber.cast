@@ -1,0 +1,5 @@
+{"timestamp": 1520182241, "version": 2, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 45, "width": 190}
+[0.408725, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.475967, "o", "\u001b[1;35m [WARNING]: The required python xmpp library (xmpppy) is not installed. pip install git+https://github.com/ArchipelProject/xmpppy\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.47612, "o", "\u001b[1;35m [WARNING]: Jabber CallBack wants the JABBER_SERV, JABBER_USER, JABBER_PASS and JABBER_TO environment variables\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[10.708918, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]

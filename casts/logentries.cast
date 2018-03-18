@@ -1,0 +1,4 @@
+{"env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1520182289, "version": 2, "width": 190, "height": 45}
+[0.41698, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.688593, "o", "\u001b[1;35m [WARNING]: Failure using method (v2_playbook_on_play_start) in callback plugin (<ansible.plugins.callback.logentries.CallbackModule object at 0x7faa48abc590>): [Errno 2] No such file or\u001b[0m\r\n\u001b[1;35mdirectory\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[12.061904, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]

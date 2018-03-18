@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/asciinema-player.css" type="text/css">
+  <link rel="stylesheet" href="css/wireframe.css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-start" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ansible Callbacks -&nbsp;How different Ansible callbacks look like</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-block d-sm-none">
+          <li>
+            <a href="#actionable-callback">actionable</a>
+          </li>
+          <li>
+            <a href="#context_demo-callback">context_demo</a>
+          </li>
+          <li>
+            <a href="#debug-callback">debug</a>
+          </li>
+          <li>
+            <a href="#default-callback">default</a>
+          </li>
+          <li>
+            <a href="#dense-callback">dense</a>
+          </li>
+          <li>
+            <a href="#foreman-callback">foreman</a>
+          </li>
+          <li>
+            <a href="#full_skip-callback">full_skip</a>
+          </li>
+          <li>
+            <a href="#hipchat-callback">hipchat</a>
+          </li>
+          <li>
+            <a href="#jabber-callback">jabber</a>
+          </li>
+          <li>
+            <a href="#json-callback">json</a>
+          </li>
+          <li>
+            <a href="#junit-callback">junit</a>
+          </li>
+          <li>
+            <a href="#logentries-callback">logentries</a>
+          </li>
+          <li>
+            <a href="#log_plays-callback">log_plays</a>
+          </li>
+          <li>
+            <a href="#logstash-callback">logstash</a>
+          </li>
+          <li>
+            <a href="#mail-callback">mail</a>
+          </li>
+          <li>
+            <a href="#minimal-callback">minimal</a>
+          </li>
+          <li>
+            <a href="#oneline-callback">oneline</a>
+          </li>
+          <li>
+            <a href="#osx_say-callback">osx_say</a>
+          </li>
+          <li>
+            <a href="#profile_roles-callback">profile_roles</a>
+          </li>
+          <li>
+            <a href="#profile_tasks-callback">profile_tasks</a>
+          </li>
+          <li>
+            <a href="#selective-callback">selective</a>
+          </li>
+          <li>
+            <a href="#skippy-callback">skippy</a>
+          </li>
+          <li>
+            <a href="#slack-callback">slack</a>
+          </li>
+          <li>
+            <a href="#stderr-callback">stderr</a>
+          </li>
+          <li>
+            <a href="#syslog_json-callback">syslog_json</a>
+          </li>
+          <li>
+            <a href="#timer-callback">timer</a>
+          </li>
+          <li>
+            <a href="#tree-callback">tree</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="col-md-12">
+            <div class="col-md-12">
+						             <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="actionable-callback" href="#actionable-callback">actionable.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/actionable.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/actionable.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the actionable callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="context_demo-callback" href="#context_demo-callback">context_demo.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/context_demo.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/context_demo.cast" title="context_demo" theme="monokai" poster="data:text/plain,Ansible output with the context_demo callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="debug-callback" href="#debug-callback">debug.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/debug.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/debug.cast" title="debug" theme="monokai" poster="data:text/plain,Ansible output with the debug callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="default-callback" href="#default-callback">default.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/default.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/default.cast" title="default" theme="monokai" poster="data:text/plain,Ansible output with the default callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="dense-callback" href="#dense-callback">dense.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/dense.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/dense.cast" title="dense" theme="monokai" poster="data:text/plain,Ansible output with the dense callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="foreman-callback" href="#foreman-callback">foreman.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/foreman.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/foreman.cast" title="foreman" theme="monokai" poster="data:text/plain,Ansible output with the foreman callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="full_skip-callback" href="#full_skip-callback">full_skip.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/full_skip.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/full_skip.cast" title="full_skip" theme="monokai" poster="data:text/plain,Ansible output with the full_skip callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="hipchat-callback" href="#hipchat-callback">hipchat.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/hipchat.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/hipchat.cast" title="hipchat" theme="monokai" poster="data:text/plain,Ansible output with the hipchat callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="jabber-callback" href="#jabber-callback">jabber.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/jabber.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/jabber.cast" title="jabber" theme="monokai" poster="data:text/plain,Ansible output with the jabber callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="json-callback" href="#json-callback">json.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/json.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/json.cast" title="json" theme="monokai" poster="data:text/plain,Ansible output with the json callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="junit-callback" href="#junit-callback">junit.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/junit.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/junit.cast" title="junit" theme="monokai" poster="data:text/plain,Ansible output with the junit callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="logentries-callback" href="#logentries-callback">logentries.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/logentries.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/logentries.cast" title="logentries" theme="monokai" poster="data:text/plain,Ansible output with the logentries callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="log_plays-callback" href="#log_plays-callback">log_plays.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/log_plays.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/log_plays.cast" title="log_plays" theme="monokai" poster="data:text/plain,Ansible output with the log_plays callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="logstash-callback" href="#logstash-callback">logstash.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/logstash.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/logstash.cast" title="logstash" theme="monokai" poster="data:text/plain,Ansible output with the logstash callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="mail-callback" href="#mail-callback">mail.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/mail.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/mail.cast" title="mail" theme="monokai" poster="data:text/plain,Ansible output with the mail callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="minimal-callback" href="#minimal-callback">minimal.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/minimal.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/minimal.cast" title="minimal" theme="monokai" poster="data:text/plain,Ansible output with the minimal callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="oneline-callback" href="#oneline-callback">oneline.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/oneline.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/oneline.cast" title="oneline" theme="monokai" poster="data:text/plain,Ansible output with the oneline callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="osx_say-callback" href="#osx_say-callback">osx_say.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/osx_say.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/osx_say.cast" title="osx_say" theme="monokai" poster="data:text/plain,Ansible output with the osx_say callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="profile_roles-callback" href="#profile_roles-callback">profile_roles.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/profile_roles.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/profile_roles.cast" title="profile_roles" theme="monokai" poster="data:text/plain,Ansible output with the profile_roles callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="profile_tasks-callback" href="#profile_tasks-callback">profile_tasks.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/profile_tasks.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/profile_tasks.cast" title="profile_tasks" theme="monokai" poster="data:text/plain,Ansible output with the profile_tasks callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="selective-callback" href="#selective-callback">selective.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/selective.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/selective.cast" title="selective" theme="monokai" poster="data:text/plain,Ansible output with the selective callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="skippy-callback" href="#skippy-callback">skippy.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/skippy.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/skippy.cast" title="skippy" theme="monokai" poster="data:text/plain,Ansible output with the skippy callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="slack-callback" href="#slack-callback">slack.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/slack.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/slack.cast" title="slack" theme="monokai" poster="data:text/plain,Ansible output with the slack callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="stderr-callback" href="#stderr-callback">stderr.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/stderr.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/stderr.cast" title="stderr" theme="monokai" poster="data:text/plain,Ansible output with the stderr callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="syslog_json-callback" href="#syslog_json-callback">syslog_json.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/syslog_json.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/syslog_json.cast" title="syslog_json" theme="monokai" poster="data:text/plain,Ansible output with the syslog_json callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="timer-callback" href="#timer-callback">timer.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/timer.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/timer.cast" title="timer" theme="monokai" poster="data:text/plain,Ansible output with the timer callback module"></asciinema-player>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body">
+                  <h4>
+                    <a name="tree-callback" href="#tree-callback">tree.cast</a>
+                    <a href="https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/callback/tree.py" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+                  </h4>
+                  <p>Description: shows only items that need attention </p>
+                  <asciinema-player id="player" src="casts/tree.cast" title="tree" theme="monokai" poster="data:text/plain,Ansible output with the tree callback module"></asciinema-player>
+                </div>
+              </div>
+              </div>
+
+          </div>
+        </div>
+        <div class="sticky-top col-md-2">
+          <ul class="sticky-top list-unstyled">
+            <li>
+              <h1>Callbacks</h1>
+            </li>
+            <li>
+              <a href="#actionable-callback">actionable</a>
+            </li>
+            <li>
+              <a href="#context_demo-callback">context_demo</a>
+            </li>
+            <li>
+              <a href="#debug-callback">debug</a>
+            </li>
+            <li>
+              <a href="#default-callback">default</a>
+            </li>
+            <li>
+              <a href="#dense-callback">dense</a>
+            </li>
+            <li>
+              <a href="#foreman-callback">foreman</a>
+            </li>
+            <li>
+              <a href="#full_skip-callback">full_skip</a>
+            </li>
+            <li>
+              <a href="#hipchat-callback">hipchat</a>
+            </li>
+            <li>
+              <a href="#jabber-callback">jabber</a>
+            </li>
+            <li>
+              <a href="#json-callback">json</a>
+            </li>
+            <li>
+              <a href="#junit-callback">junit</a>
+            </li>
+            <li>
+              <a href="#logentries-callback">logentries</a>
+            </li>
+            <li>
+              <a href="#log_plays-callback">log_plays</a>
+            </li>
+            <li>
+              <a href="#logstash-callback">logstash</a>
+            </li>
+            <li>
+              <a href="#mail-callback">mail</a>
+            </li>
+            <li>
+              <a href="#minimal-callback">minimal</a>
+            </li>
+            <li>
+              <a href="#oneline-callback">oneline</a>
+            </li>
+            <li>
+              <a href="#osx_say-callback">osx_say</a>
+            </li>
+            <li>
+              <a href="#profile_roles-callback">profile_roles</a>
+            </li>
+            <li>
+              <a href="#profile_tasks-callback">profile_tasks</a>
+            </li>
+            <li>
+              <a href="#selective-callback">selective</a>
+            </li>
+            <li>
+              <a href="#skippy-callback">skippy</a>
+            </li>
+            <li>
+              <a href="#slack-callback">slack</a>
+            </li>
+            <li>
+              <a href="#stderr-callback">stderr</a>
+            </li>
+            <li>
+              <a href="#syslog_json-callback">syslog_json</a>
+            </li>
+            <li>
+              <a href="#timer-callback">timer</a>
+            </li>
+            <li>
+              <a href="#tree-callback">tree</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/asciinema-player.js"></script>
+</body>
+
+</html>
