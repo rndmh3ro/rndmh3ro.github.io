@@ -1,4 +1,4 @@
-{"width": 190, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "timestamp": 1520182302, "version": 2, "height": 45}
-[0.424844, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.498651, "o", "\u001b[1;35m [WARNING]: The required python-logstash is not installed. pip install python-logstash\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[10.752146, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"height": 45, "width": 190, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1523994670, "version": 2}
+[0.397283, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.483448, "o", "\u001b[1;35m [WARNING]: The required python-logstash is not installed. pip install python-logstash\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[11.480621, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

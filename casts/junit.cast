@@ -1,4 +1,4 @@
-{"version": 2, "width": 190, "height": 45, "timestamp": 1520182265, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}}
-[0.391766, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.458622, "o", "\u001b[1;35m [WARNING]: The `junit_xml` python module is not installed. Disabling the `junit` callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[10.877766, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"version": 2, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "timestamp": 1523994630, "width": 190, "height": 45}
+[0.41387, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.505079, "o", "\u001b[1;35m [WARNING]: The `junit_xml` python module is not installed. Disabling the `junit` callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[11.83397, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

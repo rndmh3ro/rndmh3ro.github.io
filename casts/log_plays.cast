@@ -1,3 +1,4 @@
-{"version": 2, "timestamp": 1520182277, "width": 190, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 45}
-[0.410838, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[10.784825, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"timestamp": 1523994643, "version": 2, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "height": 45, "width": 190}
+[0.415158, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[11.883531, "o", "Pausing for 1 seconds\r\n"]
+[11.883832, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

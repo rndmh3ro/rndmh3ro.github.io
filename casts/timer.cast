@@ -1,4 +1,4 @@
-{"timestamp": 1520182442, "height": 45, "version": 2, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "width": 190}
-[0.387838, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[9.911097, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[10.914978, "o", "Playbook run took 0 days, 0 hours, 0 minutes, 10 seconds\r\n"]
+{"width": 190, "version": 2, "height": 45, "timestamp": 1523994833, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.391237, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[10.893656, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+[11.899199, "o", "Playbook run took 0 days, 0 hours, 0 minutes, 11 seconds\r\n"]

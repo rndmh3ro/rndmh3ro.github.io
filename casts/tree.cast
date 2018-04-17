@@ -1,4 +1,4 @@
-{"height": 45, "width": 190, "timestamp": 1520182453, "version": 2, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
-[0.394315, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.462202, "o", "\u001b[1;35m [WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was provided: /root/.ansible/tree\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[9.987855, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"height": 45, "timestamp": 1523994845, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 190, "version": 2}
+[0.405202, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.498394, "o", "\u001b[1;35m [WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was provided: /root/.ansible/tree\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[10.976222, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

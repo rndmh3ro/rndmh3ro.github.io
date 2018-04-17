@@ -1,4 +1,4 @@
-{"width": 190, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1520182350, "version": 2, "height": 45}
-[0.398492, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.465849, "o", "\u001b[1;35m [WARNING]: /usr/bin/say does not exist, plugin osx_say.pyc disabled\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[10.5054, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"version": 2, "height": 45, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1523994734, "width": 190}
+[0.396891, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.482986, "o", "\u001b[1;35m [WARNING]: /usr/bin/say does not exist, plugin osx_say.pyc disabled\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[11.474923, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

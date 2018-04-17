@@ -1,5 +1,5 @@
-{"env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 45, "version": 2, "width": 190, "timestamp": 1520182408}
-[0.392482, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.482253, "o", "\u001b[1;35m [WARNING]: The `prettytable` python module is not installed. Disabling the Slack callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.488622, "o", "\u001b[1;35m [WARNING]: Slack Webhook URL was not provided. The Slack Webhook URL can be provided using the `SLACK_WEBHOOK_URL` environment variable.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[10.083054, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+{"width": 190, "timestamp": 1523994797, "version": 2, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "height": 45}
+[0.400858, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.515202, "o", "\u001b[1;35m [WARNING]: The `prettytable` python module is not installed. Disabling the Slack callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.520613, "o", "\u001b[1;35m [WARNING]: Slack Webhook URL was not provided. The Slack Webhook URL can be provided using the `SLACK_WEBHOOK_URL` environment variable.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[11.000886, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
