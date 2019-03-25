@@ -1,3 +1,5 @@
-{"env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "version": 2, "width": 190, "height": 45, "timestamp": 1523994708}
-[0.39975, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[11.441139, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 190, "height": 46, "timestamp": 1553547259, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.501782, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.521246, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.521467, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[10.582263, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

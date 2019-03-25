@@ -1,0 +1,5 @@
+{"version": 2, "width": 190, "height": 46, "timestamp": 1553547113, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.50335, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.522541, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.522717, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.622273, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: cgroup_memory_recap setting: cur_mem_file \u001b[0m\r\n"]

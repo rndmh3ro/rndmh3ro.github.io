@@ -1,4 +1,6 @@
-{"height": 45, "timestamp": 1523994845, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 190, "version": 2}
-[0.405202, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.498394, "o", "\u001b[1;35m [WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was provided: /root/.ansible/tree\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[10.976222, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 190, "height": 46, "timestamp": 1553547402, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.508732, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.526801, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.52691, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.608262, "o", "\u001b[1;35m [WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was provided: /root/.ansible/tree\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[10.469389, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

@@ -1,0 +1,7 @@
+{"version": 2, "width": 190, "height": 46, "timestamp": 1553547343, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.509835, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.529052, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.529143, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.643269, "o", "\u001b[1;35m [WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.64343, "o", "\u001b[1;35m [WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector authentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in the\u001b[0m\r\n\u001b[1;35mansible.cfg file.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[10.657387, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

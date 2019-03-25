@@ -1,3 +1,5 @@
-{"height": 45, "timestamp": 1523994577, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 190, "version": 2}
-[0.410057, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.52464, "o", "\u001b[0;31mERROR! Unexpected Exception, this is probably a bug: set_options() takes exactly 2 arguments (1 given)\u001b[0m\r\nto see the full traceback, use -vvv\r\n"]
+{"version": 2, "width": 190, "height": 46, "timestamp": 1553547172, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.505011, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.523458, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.523608, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.636519, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: foreman setting: url \u001b[0m\r\n"]
