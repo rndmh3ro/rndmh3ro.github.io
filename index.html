@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/fontawesome-all.min.css" type="text/css">
   <link rel="stylesheet" href="css/asciinema-player.css" type="text/css">
-  <link rel="stylesheet" href="css/wireframe.css"> </head>
-  <link rel="stylesheet" href="css/prism.css"> </head>
+  <link rel="stylesheet" href="css/wireframe.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <title>
+    Ansible Callback-Plugins
+  </title>
+</head>
 
 <body>
   <div class="py-3">
@@ -26,27 +29,37 @@
           <div class="col-md-12">
             <div class="col-md-12">
               <p class="lead">
-                <a href="https://docs.ansible.com/ansible/devel/plugins/callback.html">Ansibles Callback plugins <i class="fas fa-external-link-alt"></i></a> control most of the output you see when running the command line programs, but can also be used to add additional output, integrate with other tools and marshall the
+                <a href="https://docs.ansible.com/ansible/devel/plugins/callback.html">Ansibles Callback plugins <i
+                    class="fas fa-external-link-alt"></i></a> control most of the output you see when running the
+                command line programs, but can also be used to add additional output, integrate with other tools and
+                marshall the
                 events to a storage backend.<br><br>Last updated for Ansible version: 2.7.9</p>
 
-                  <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="actionable-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/actionable.html">actionable<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: shows only items that need attention                                                                                                                                  </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-actionable">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-actionable">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-actionable" role="tabpanel">
-                            <asciinema-player id="player" src="casts/actionable.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the actionable callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-actionable" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="actionable-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/actionable.html">actionable<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: shows only items that need attention </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-actionable">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-actionable">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-actionable" role="tabpanel">
+                      <asciinema-player id="player" src="casts/actionable.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the actionable callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-actionable" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -109,55 +122,72 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="cgroup_memory_recap-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/cgroup_memory_recap.html">cgroup_memory_recap<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Profiles maximum memory usage of tasks and full execution using cgroups                                                                                               </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-cgroup_memory_recap">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-cgroup_memory_recap">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-cgroup_memory_recap" role="tabpanel">
-                            <asciinema-player id="player" src="casts/cgroup_memory_recap.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the cgroup_memory_recap callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-cgroup_memory_recap" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="cgroup_memory_recap-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/cgroup_memory_recap.html">cgroup_memory_recap<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Profiles maximum memory usage of tasks and full execution using cgroups </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-cgroup_memory_recap">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab"
+                        data-target="#tabtwo-cgroup_memory_recap">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-cgroup_memory_recap" role="tabpanel">
+                      <asciinema-player id="player" src="casts/cgroup_memory_recap.cast" title="actionable"
+                        theme="monokai"
+                        poster="data:text/plain,Ansible output with the cgroup_memory_recap callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-cgroup_memory_recap" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: cgroup_memory_recap setting: cur_mem_file </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="context_demo-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/context_demo.html">context_demo<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: demo callback that adds play/task context                                                                                                                             </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-context_demo">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-context_demo">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-context_demo" role="tabpanel">
-                            <asciinema-player id="player" src="casts/context_demo.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the context_demo callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-context_demo" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="context_demo-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/context_demo.html">context_demo<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: demo callback that adds play/task context </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-context_demo">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-context_demo">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-context_demo" role="tabpanel">
+                      <asciinema-player id="player" src="casts/context_demo.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the context_demo callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-context_demo" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       --- play: None task: None ---
@@ -319,29 +349,37 @@
            --- ARGS
            0: &lt;ansible.executor.stats.AggregateStats object at 0x7f076e890ed0&gt;
             --- KWARGS </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="counter_enabled-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/counter_enabled.html">counter_enabled<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: adds counters to the output items (tasks and hosts/task)                                                                                                              </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-counter_enabled">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-counter_enabled">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-counter_enabled" role="tabpanel">
-                            <asciinema-player id="player" src="casts/counter_enabled.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the counter_enabled callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-counter_enabled" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="counter_enabled-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/counter_enabled.html">counter_enabled<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: adds counters to the output items (tasks and hosts/task) </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-counter_enabled">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-counter_enabled">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-counter_enabled" role="tabpanel">
+                      <asciinema-player id="player" src="casts/counter_enabled.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the counter_enabled callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-counter_enabled" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -417,29 +455,35 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="debug-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/debug.html">debug<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: formatted stdout/stderr display                                                                                                                                       </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-debug">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-debug">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-debug" role="tabpanel">
-                            <asciinema-player id="player" src="casts/debug.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the debug callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-debug" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="debug-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/debug.html">debug<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: formatted stdout/stderr display </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-debug">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-debug">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-debug" role="tabpanel">
+                      <asciinema-player id="player" src="casts/debug.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the debug callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-debug" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -710,29 +754,35 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="default-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/default.html">default<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: default Ansible screen output                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-default">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-default">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-default" role="tabpanel">
-                            <asciinema-player id="player" src="casts/default.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the default callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-default" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="default-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/default.html">default<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: default Ansible screen output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-default">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-default">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-default" role="tabpanel">
+                      <asciinema-player id="player" src="casts/default.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the default callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-default" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -829,30 +879,36 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="dense-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/dense.html">dense<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: minimal stdout output
-      condensed Ansible output                                                                                                                                              </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-dense">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-dense">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-dense" role="tabpanel">
-                            <asciinema-player id="player" src="casts/dense.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the dense callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-dense" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="dense-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/dense.html">dense<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: minimal stdout output
+                    condensed Ansible output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-dense">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-dense">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-dense" role="tabpanel">
+                      <asciinema-player id="player" src="casts/dense.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the dense callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-dense" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold">PLAY 1: LOCALHOST</span>
@@ -903,55 +959,67 @@
       waiting for one second:
       <span class="underline">task 14:</span> <span class="f2">localhost</span><span class="underline"><span class="bold">SUMMARY</span></span>
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="foreman-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/foreman.html">foreman<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends events to Foreman                                                                                                                                               </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-foreman">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-foreman">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-foreman" role="tabpanel">
-                            <asciinema-player id="player" src="casts/foreman.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the foreman callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-foreman" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="foreman-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/foreman.html">foreman<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends events to Foreman </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-foreman">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-foreman">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-foreman" role="tabpanel">
+                      <asciinema-player id="player" src="casts/foreman.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the foreman callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-foreman" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: foreman setting: url </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="full_skip-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/full_skip.html">full_skip<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: suppresses tasks if all hosts skipped                                                                                                                                 </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-full_skip">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-full_skip">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-full_skip" role="tabpanel">
-                            <asciinema-player id="player" src="casts/full_skip.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the full_skip callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-full_skip" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="full_skip-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/full_skip.html">full_skip<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: suppresses tasks if all hosts skipped </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-full_skip">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-full_skip">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-full_skip" role="tabpanel">
+                      <asciinema-player id="player" src="casts/full_skip.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the full_skip callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-full_skip" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -1076,83 +1144,105 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="grafana_annotations-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/grafana_annotations.html">grafana_annotations<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: send ansible events as annotations on charts to grafana over http api.                                                                                                </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-grafana_annotations">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-grafana_annotations">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-grafana_annotations" role="tabpanel">
-                            <asciinema-player id="player" src="casts/grafana_annotations.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the grafana_annotations callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-grafana_annotations" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="grafana_annotations-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/grafana_annotations.html">grafana_annotations<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: send ansible events as annotations on charts to grafana over http api. </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-grafana_annotations">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab"
+                        data-target="#tabtwo-grafana_annotations">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-grafana_annotations" role="tabpanel">
+                      <asciinema-player id="player" src="casts/grafana_annotations.cast" title="actionable"
+                        theme="monokai"
+                        poster="data:text/plain,Ansible output with the grafana_annotations callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-grafana_annotations" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: grafana_annotations setting: grafana_url </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="hipchat-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/hipchat.html">hipchat<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: post task events to hipchat                                                                                                                                           </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-hipchat">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-hipchat">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-hipchat" role="tabpanel">
-                            <asciinema-player id="player" src="casts/hipchat.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the hipchat callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-hipchat" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="hipchat-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/hipchat.html">hipchat<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: post task events to hipchat </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-hipchat">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-hipchat">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-hipchat" role="tabpanel">
+                      <asciinema-player id="player" src="casts/hipchat.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the hipchat callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-hipchat" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The `prettytable` python module is not installed. Disabling the HipChat callback plugin.
       </span></span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: hipchat setting: token </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="jabber-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/jabber.html">jabber<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: post task events to a jabber server                                                                                                                                   </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-jabber">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-jabber">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-jabber" role="tabpanel">
-                            <asciinema-player id="player" src="casts/jabber.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the jabber callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-jabber" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="jabber-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/jabber.html">jabber<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: post task events to a jabber server </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-jabber">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-jabber">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-jabber" role="tabpanel">
+                      <asciinema-player id="player" src="casts/jabber.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the jabber callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-jabber" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The required python xmpp library (xmpppy) is not installed. pip install git+https://github.com/ArchipelProject/xmpppy
@@ -1160,30 +1250,35 @@
       <span class="bold"><span class="f5"> [WARNING]: Jabber CallBack wants the JABBER_SERV, JABBER_USER, JABBER_PASS and JABBER_TO environment variables</span></span>
 
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: jabber setting: to </span></code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="json-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/json.html">json<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Ansible screen output as JSON
-      sends JSON events to syslog                                                                                                                                           </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-json">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-json">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-json" role="tabpanel">
-                            <asciinema-player id="player" src="casts/json.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the json callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-json" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="json-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/json.html">json<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Ansible screen output as JSON
+                    sends JSON events to syslog </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-json">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-json">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-json" role="tabpanel">
+                      <asciinema-player id="player" src="casts/json.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the json callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-json" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
@@ -2277,29 +2372,34 @@
               }
           }
       }</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="junit-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/junit.html">junit<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: write playbook output to a JUnit file.                                                                                                                                </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-junit">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-junit">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-junit" role="tabpanel">
-                            <asciinema-player id="player" src="casts/junit.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the junit callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-junit" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="junit-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/junit.html">junit<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: write playbook output to a JUnit file. </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-junit">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-junit">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-junit" role="tabpanel">
+                      <asciinema-player id="player" src="casts/junit.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the junit callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-junit" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The `junit_xml` python module is not installed. Disabling the `junit` callback plugin.
@@ -2308,110 +2408,133 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="logdna-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/logdna.html">logdna<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends playbook logs to LogDNA                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-logdna">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logdna">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-logdna" role="tabpanel">
-                            <asciinema-player id="player" src="casts/logdna.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the logdna callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-logdna" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="logdna-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/logdna.html">logdna<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends playbook logs to LogDNA </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-logdna">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logdna">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-logdna" role="tabpanel">
+                      <asciinema-player id="player" src="casts/logdna.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the logdna callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-logdna" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: logdna setting: conf_key </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="logentries-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/logentries.html">logentries<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends events to Logentries                                                                                                                                            </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-logentries">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logentries">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-logentries" role="tabpanel">
-                            <asciinema-player id="player" src="casts/logentries.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the logentries callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-logentries" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="logentries-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/logentries.html">logentries<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends events to Logentries </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-logentries">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logentries">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-logentries" role="tabpanel">
+                      <asciinema-player id="player" src="casts/logentries.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the logentries callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-logentries" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: logentries setting: token </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="log_plays-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/log_plays.html">log_plays<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: write playbook output to log file                                                                                                                                     </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-log_plays">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-log_plays">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-log_plays" role="tabpanel">
-                            <asciinema-player id="player" src="casts/log_plays.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the log_plays callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-log_plays" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="log_plays-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/log_plays.html">log_plays<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: write playbook output to log file </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-log_plays">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-log_plays">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-log_plays" role="tabpanel">
+                      <asciinema-player id="player" src="casts/log_plays.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the log_plays callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-log_plays" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="logstash-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/logstash.html">logstash<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends events to Logstash                                                                                                                                              </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-logstash">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logstash">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-logstash" role="tabpanel">
-                            <asciinema-player id="player" src="casts/logstash.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the logstash callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-logstash" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="logstash-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/logstash.html">logstash<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends events to Logstash </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-logstash">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-logstash">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-logstash" role="tabpanel">
+                      <asciinema-player id="player" src="casts/logstash.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the logstash callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-logstash" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The required python-logstash is not installed. pip install python-logstash</span></span>
@@ -2420,59 +2543,69 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="mail-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/mail.html">mail<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends failure events via email                                                                                                                                        </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-mail">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-mail">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-mail" role="tabpanel">
-                            <asciinema-player id="player" src="casts/mail.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the mail callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-mail" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="mail-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/mail.html">mail<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends failure events via email </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-mail">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-mail">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-mail" role="tabpanel">
+                      <asciinema-player id="player" src="casts/mail.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the mail callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-mail" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="minimal-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/minimal.html">minimal<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: minimal stdout output
-      minimal Ansible screen output                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-minimal">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-minimal">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-minimal" role="tabpanel">
-                            <asciinema-player id="player" src="casts/minimal.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the minimal callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-minimal" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="minimal-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/minimal.html">minimal<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: minimal stdout output
+                    minimal Ansible screen output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-minimal">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-minimal">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-minimal" role="tabpanel">
+                      <asciinema-player id="player" src="casts/minimal.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the minimal callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-minimal" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f2">localhost | SUCCESS =&gt; {</span>
@@ -3063,59 +3196,70 @@
       <span class="f2">    &quot;stop&quot;: &quot;2019-03-25 20:34:36.158359&quot;, </span>
       <span class="f2">    &quot;user_input&quot;: &quot;&quot;</span>
       <span class="f2">}</span></code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="null-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/null.html">null<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Don't display stuff to screen                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-null">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-null">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-null" role="tabpanel">
-                            <asciinema-player id="player" src="casts/null.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the null callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-null" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="null-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/null.html">null<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Don't display stuff to screen </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-null">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-null">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-null" role="tabpanel">
+                      <asciinema-player id="player" src="casts/null.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the null callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-null" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="oneline-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/oneline.html">oneline<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: oneline Ansible screen output
-      oneline Ansible screen output                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-oneline">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-oneline">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-oneline" role="tabpanel">
-                            <asciinema-player id="player" src="casts/oneline.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the oneline callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-oneline" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="oneline-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/oneline.html">oneline<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: oneline Ansible screen output
+                    oneline Ansible screen output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-oneline">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-oneline">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-oneline" role="tabpanel">
+                      <asciinema-player id="player" src="casts/oneline.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the oneline callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-oneline" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="f2">localhost | SUCCESS =&gt; {&quot;ansible_facts&quot;: {&quot;ansible_apparmor&quot;: {&quot;status&quot;: &quot;disabled&quot;}, &quot;ansible_architecture&quot;: &quot;x86_64&quot;, &quot;ansible_bios_date&quot;: &quot;12/17/2014&quot;, &quot;ansible_bios_version&quot;: &quot;P1.50&quot;, &quot;ansible_cmdline&quot;: {&quot;BOOT_IMAGE&quot;: &quot;/boot/vmlinuz-linux&quot;, &quot;amdgpu.cik_support&quot;: &quot;1&quot;, &quot;amdgpu.dc&quot;: &quot;1&quot;, &quot;loglevel&quot;: &quot;3&quot;, &quot;quiet&quot;: true, &quot;radeon.cik_support&quot;: &quot;0&quot;, &quot;rd.systemd.show_status&quot;: &quot;false&quot;, &quot;root&quot;: &quot;UUID=a949b443-c5da-4a95-9f11-4ae49063d139&quot;, &quot;rw&quot;: true, &quot;udev.log-priority&quot;: &quot;3&quot;}, &quot;ansible_date_time&quot;: {&quot;date&quot;: &quot;2019-03-25&quot;, &quot;day&quot;: &quot;25&quot;, &quot;epoch&quot;: &quot;1553546089&quot;, &quot;hour&quot;: &quot;20&quot;, &quot;iso8601&quot;: &quot;2019-03-25T20:34:49Z&quot;, &quot;iso8601_basic&quot;: &quot;20190325T203449194658&quot;, &quot;iso8601_basic_short&quot;: &quot;20190325T203449&quot;, &quot;iso8601_micro&quot;: &quot;2019-03-25T20:34:49.194701Z&quot;, &quot;minute&quot;: &quot;34&quot;, &quot;month&quot;: &quot;03&quot;, &quot;second&quot;: &quot;49&quot;, &quot;time&quot;: &quot;20:34:49&quot;, &quot;tz&quot;: &quot;UTC&quot;, &quot;tz_offset&quot;: &quot;+0000&quot;, &quot;weekday&quot;: &quot;Monday&quot;, &quot;weekday_number&quot;: &quot;1&quot;, &quot;weeknumber&quot;: &quot;12&quot;, &quot;year&quot;: &quot;2019&quot;}, &quot;ansible_device_links&quot;: {&quot;ids&quot;: {}, &quot;labels&quot;: {}, &quot;masters&quot;: {}, &quot;uuids&quot;: {}}, &quot;ansible_devices&quot;: {&quot;sda&quot;: {&quot;holders&quot;: [], &quot;host&quot;: &quot;&quot;, &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;model&quot;: &quot;WDC WD10EZEX-19Z&quot;, &quot;partitions&quot;: {&quot;sda1&quot;: {&quot;holders&quot;: [], &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;sectors&quot;: &quot;1953513472&quot;, &quot;sectorsize&quot;: 512, &quot;size&quot;: &quot;931.51 GB&quot;, &quot;start&quot;: &quot;2048&quot;, &quot;uuid&quot;: null}}, &quot;removable&quot;: &quot;0&quot;, &quot;rotational&quot;: &quot;1&quot;, &quot;sas_address&quot;: null, &quot;sas_device_handle&quot;: null, &quot;scheduler_mode&quot;: &quot;mq-deadline&quot;, &quot;sectors&quot;: &quot;1953516911&quot;, &quot;sectorsize&quot;: &quot;512&quot;, &quot;size&quot;: &quot;931.51 GB&quot;, &quot;support_discard&quot;: &quot;0&quot;, &quot;vendor&quot;: &quot;ATA&quot;, &quot;virtual&quot;: 1}, &quot;sdb&quot;: {&quot;holders&quot;: [], &quot;host&quot;: &quot;&quot;, &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;model&quot;: &quot;WDC WD5000AAKS-0&quot;, &quot;partitions&quot;: {&quot;sdb1&quot;: {&quot;holders&quot;: [], &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;sectors&quot;: &quot;204800&quot;, &quot;sectorsize&quot;: 512, &quot;size&quot;: &quot;100.00 MB&quot;, &quot;start&quot;: &quot;2048&quot;, &quot;uuid&quot;: null}, &quot;sdb2&quot;: {&quot;holders&quot;: [], &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;sectors&quot;: &quot;976553984&quot;, &quot;sectorsize&quot;: 512, &quot;size&quot;: &quot;465.66 GB&quot;, &quot;start&quot;: &quot;206848&quot;, &quot;uuid&quot;: null}}, &quot;removable&quot;: &quot;0&quot;, &quot;rotational&quot;: &quot;1&quot;, &quot;sas_address&quot;: null, &quot;sas_device_handle&quot;: null, &quot;scheduler_mode&quot;: &quot;mq-deadline&quot;, &quot;sectors&quot;: &quot;976764911&quot;, &quot;sectorsize&quot;: &quot;512&quot;, &quot;size&quot;: &quot;465.76 GB&quot;, &quot;support_discard&quot;: &quot;0&quot;, &quot;vendor&quot;: &quot;ATA&quot;, &quot;virtual&quot;: 1}, &quot;sdc&quot;: {&quot;holders&quot;: [], &quot;host&quot;: &quot;&quot;, &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;model&quot;: &quot;Samsung SSD 840&quot;, &quot;partitions&quot;: {&quot;sdc1&quot;: {&quot;holders&quot;: [], &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;sectors&quot;: &quot;234431343&quot;, &quot;sectorsize&quot;: 512, &quot;size&quot;: &quot;111.79 GB&quot;, &quot;start&quot;: &quot;2048&quot;, &quot;uuid&quot;: null}}, &quot;removable&quot;: &quot;0&quot;, &quot;rotational&quot;: &quot;0&quot;, &quot;sas_address&quot;: null, &quot;sas_device_handle&quot;: null, &quot;scheduler_mode&quot;: &quot;mq-deadline&quot;, &quot;sectors&quot;: &quot;234433391&quot;, &quot;sectorsize&quot;: &quot;512&quot;, &quot;size&quot;: &quot;111.79 GB&quot;, &quot;support_discard&quot;: &quot;512&quot;, &quot;vendor&quot;: &quot;ATA&quot;, &quot;virtual&quot;: 1}, &quot;sr0&quot;: {&quot;holders&quot;: [], &quot;host&quot;: &quot;&quot;, &quot;links&quot;: {&quot;ids&quot;: [], &quot;labels&quot;: [], &quot;masters&quot;: [], &quot;uuids&quot;: []}, &quot;model&quot;: &quot;BD-RE  BH10LS30&quot;, &quot;partitions&quot;: {}, &quot;removable&quot;: &quot;1&quot;, &quot;rotational&quot;: &quot;1&quot;, &quot;sas_address&quot;: null, &quot;sas_device_handle&quot;: null, &quot;scheduler_mode&quot;: &quot;mq-deadline&quot;, &quot;sectors&quot;: &quot;2097151&quot;, &quot;sectorsize&quot;: &quot;512&quot;, &quot;size&quot;: &quot;1024.00 MB&quot;, &quot;support_discard&quot;: &quot;0&quot;, &quot;vendor&quot;: &quot;HL-DT-ST&quot;, &quot;virtual&quot;: 1}}, &quot;ansible_distribution&quot;: &quot;Ubuntu&quot;, &quot;ansible_distribution_file_parsed&quot;: true, &quot;ansible_distribution_file_path&quot;: &quot;/etc/os-release&quot;, &quot;ansible_distribution_file_variety&quot;: &quot;Debian&quot;, &quot;ansible_distribution_major_version&quot;: &quot;18&quot;, &quot;ansible_distribution_release&quot;: &quot;bionic&quot;, &quot;ansible_distribution_version&quot;: &quot;18.04&quot;, &quot;ansible_dns&quot;: {&quot;nameservers&quot;: [&quot;8.8.8.8&quot;, &quot;8.8.4.4&quot;]}, &quot;ansible_domain&quot;: &quot;&quot;, &quot;ansible_env&quot;: {&quot;ANSIBLE_STDOUT_CALLBACK&quot;: &quot;oneline&quot;, &quot;ASCIINEMA_REC&quot;: &quot;1&quot;, &quot;DEBIAN_FRONTEND&quot;: &quot;noninteractive&quot;, &quot;HOME&quot;: &quot;/root&quot;, &quot;HOSTNAME&quot;: &quot;7ad555ad1073&quot;, &quot;LANG&quot;: &quot;en_US.utf8&quot;, &quot;PATH&quot;: &quot;/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;, &quot;PWD&quot;: &quot;/root&quot;, &quot;SHELL&quot;: &quot;/bin/bash&quot;, &quot;TERM&quot;: &quot;xterm&quot;, &quot;USER&quot;: &quot;docker&quot;}, &quot;ansible_fips&quot;: false, &quot;ansible_form_factor&quot;: &quot;Desktop&quot;, &quot;ansible_fqdn&quot;: &quot;7ad555ad1073&quot;, &quot;ansible_hostname&quot;: &quot;7ad555ad1073&quot;, &quot;ansible_is_chroot&quot;: false, &quot;ansible_iscsi_iqn&quot;: &quot;&quot;, &quot;ansible_kernel&quot;: &quot;5.0.3-arch1-1-ARCH&quot;, &quot;ansible_local&quot;: {}, &quot;ansible_lsb&quot;: {&quot;codename&quot;: &quot;bionic&quot;, &quot;description&quot;: &quot;\&quot;Ubuntu 18.04.2 LTS\&quot;&quot;, &quot;id&quot;: &quot;Ubuntu&quot;, &quot;major_release&quot;: &quot;18&quot;, &quot;release&quot;: &quot;18.04&quot;}, &quot;ansible_machine&quot;: &quot;x86_64&quot;, &quot;ansible_machine_id&quot;: &quot;b905ea10fc78712170dfd1c45c993a7d&quot;, &quot;ansible_memfree_mb&quot;: 6158, &quot;ansible_memory_mb&quot;: {&quot;nocache&quot;: {&quot;free&quot;: 10967, &quot;used&quot;: 5021}, &quot;real&quot;: {&quot;free&quot;: 6158, &quot;total&quot;: 15988, &quot;used&quot;: 9830}, &quot;swap&quot;: {&quot;cached&quot;: 0, &quot;free&quot;: 0, &quot;total&quot;: 0, &quot;used&quot;: 0}}, &quot;ansible_memtotal_mb&quot;: 15988, &quot;ansible_mounts&quot;: [{&quot;block_available&quot;: 18516441, &quot;block_size&quot;: 4096, &quot;block_total&quot;: 240324434, &quot;block_used&quot;: 221807993, &quot;device&quot;: &quot;/dev/sda1&quot;, &quot;fstype&quot;: &quot;ext4&quot;, &quot;inode_available&quot;: 59093686, &quot;inode_total&quot;: 61054976, &quot;inode_used&quot;: 1961290, &quot;mount&quot;: &quot;/tmp/output&quot;, &quot;options&quot;: &quot;rw,relatime,data=ordered,bind&quot;, &quot;size_available&quot;: 75843342336, &quot;size_total&quot;: 984368881664, &quot;uuid&quot;: &quot;N/A&quot;}, {&quot;block_available&quot;: 6283036, &quot;block_size&quot;: 4096, &quot;block_total&quot;: 28810999, &quot;block_used&quot;: 22527963, &quot;device&quot;: &quot;/dev/sdc1&quot;, &quot;fstype&quot;: &quot;ext4&quot;, &quot;inode_available&quot;: 6055456, &quot;inode_total&quot;: 7331840, &quot;inode_used&quot;: 1276384, &quot;mount&quot;: &quot;/etc/resolv.conf&quot;, &quot;options&quot;: &quot;rw,noatime,discard,bind&quot;, &quot;size_available&quot;: 25735315456, &quot;size_total&quot;: 118009851904, &quot;uuid&quot;: &quot;N/A&quot;}, {&quot;block_available&quot;: 6283036, &quot;block_size&quot;: 4096, &quot;block_total&quot;: 28810999, &quot;block_used&quot;: 22527963, &quot;device&quot;: &quot;/dev/sdc1&quot;, &quot;fstype&quot;: &quot;ext4&quot;, &quot;inode_available&quot;: 6055456, &quot;inode_total&quot;: 7331840, &quot;inode_used&quot;: 1276384, &quot;mount&quot;: &quot;/etc/hostname&quot;, &quot;options&quot;: &quot;rw,noatime,discard,bind&quot;, &quot;size_available&quot;: 25735315456, &quot;size_total&quot;: 118009851904, &quot;uuid&quot;: &quot;N/A&quot;}, {&quot;block_available&quot;: 6283036, &quot;block_size&quot;: 4096, &quot;block_total&quot;: 28810999, &quot;block_used&quot;: 22527963, &quot;device&quot;: &quot;/dev/sdc1&quot;, &quot;fstype&quot;: &quot;ext4&quot;, &quot;inode_available&quot;: 6055456, &quot;inode_total&quot;: 7331840, &quot;inode_used&quot;: 1276384, &quot;mount&quot;: &quot;/etc/hosts&quot;, &quot;options&quot;: &quot;rw,noatime,discard,bind&quot;, &quot;size_available&quot;: 25735315456, &quot;size_total&quot;: 118009851904, &quot;uuid&quot;: &quot;N/A&quot;}], &quot;ansible_nodename&quot;: &quot;7ad555ad1073&quot;, &quot;ansible_os_family&quot;: &quot;Debian&quot;, &quot;ansible_pkg_mgr&quot;: &quot;apt&quot;, &quot;ansible_processor&quot;: [&quot;0&quot;, &quot;GenuineIntel&quot;, &quot;Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz&quot;, &quot;1&quot;, &quot;GenuineIntel&quot;, &quot;Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz&quot;, &quot;2&quot;, &quot;GenuineIntel&quot;, &quot;Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz&quot;, &quot;3&quot;, &quot;GenuineIntel&quot;, &quot;Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz&quot;], &quot;ansible_processor_cores&quot;: 4, &quot;ansible_processor_count&quot;: 1, &quot;ansible_processor_threads_per_core&quot;: 1, &quot;ansible_processor_vcpus&quot;: 4, &quot;ansible_product_name&quot;: &quot;To Be Filled By O.E.M.&quot;, &quot;ansible_product_serial&quot;: &quot;To Be Filled By O.E.M.&quot;, &quot;ansible_product_uuid&quot;: &quot;03000200-0400-0500-0006-000700080009&quot;, &quot;ansible_product_version&quot;: &quot;To Be Filled By O.E.M.&quot;, &quot;ansible_python&quot;: {&quot;executable&quot;: &quot;/usr/bin/python&quot;, &quot;has_sslcontext&quot;: true, &quot;type&quot;: &quot;CPython&quot;, &quot;version&quot;: {&quot;major&quot;: 2, &quot;micro&quot;: 15, &quot;minor&quot;: 7, &quot;releaselevel&quot;: &quot;candidate&quot;, &quot;serial&quot;: 1}, &quot;version_info&quot;: [2, 7, 15, &quot;candidate&quot;, 1]}, &quot;ansible_python_version&quot;: &quot;2.7.15rc1&quot;, &quot;ansible_selinux&quot;: {&quot;status&quot;: &quot;Missing selinux Python library&quot;}, &quot;ansible_selinux_python_present&quot;: false, &quot;ansible_service_mgr&quot;: &quot;sysvinit&quot;, &quot;ansible_swapfree_mb&quot;: 0, &quot;ansible_swaptotal_mb&quot;: 0, &quot;ansible_system&quot;: &quot;Linux&quot;, &quot;ansible_system_vendor&quot;: &quot;To Be Filled By O.E.M.&quot;, &quot;ansible_uptime_seconds&quot;: 6497, &quot;ansible_userspace_architecture&quot;: &quot;x86_64&quot;, &quot;ansible_userspace_bits&quot;: &quot;64&quot;, &quot;ansible_virtualization_role&quot;: &quot;guest&quot;, &quot;ansible_virtualization_type&quot;: &quot;docker&quot;, &quot;gather_subset&quot;: [&quot;all&quot;], &quot;module_setup&quot;: true}, &quot;changed&quot;: false}
@@ -3136,29 +3280,34 @@
       [pause]
       waiting for one second:
       <span class="f2">localhost | SUCCESS =&gt; {&quot;changed&quot;: false, &quot;delta&quot;: 1, &quot;echo&quot;: true, &quot;rc&quot;: 0, &quot;start&quot;: &quot;2019-03-25 20:34:58.420464&quot;, &quot;stderr&quot;: &quot;&quot;, &quot;stdout&quot;: &quot;Paused for 1.0 seconds&quot;, &quot;stop&quot;: &quot;2019-03-25 20:34:59.420615&quot;, &quot;user_input&quot;: &quot;&quot;}</span></code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="osx_say-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/osx_say.html">osx_say<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: oneline Ansible screen output                                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-osx_say">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-osx_say">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-osx_say" role="tabpanel">
-                            <asciinema-player id="player" src="casts/osx_say.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the osx_say callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-osx_say" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="osx_say-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/osx_say.html">osx_say<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: oneline Ansible screen output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-osx_say">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-osx_say">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-osx_say" role="tabpanel">
+                      <asciinema-player id="player" src="casts/osx_say.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the osx_say callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-osx_say" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: /usr/bin/say does not exist, plugin osx_say.pyc disabled</span></span>
@@ -3167,29 +3316,36 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="profile_roles-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/profile_roles.html">profile_roles<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: adds timing information to roles                                                                                                                                      </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-profile_roles">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-profile_roles">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-profile_roles" role="tabpanel">
-                            <asciinema-player id="player" src="casts/profile_roles.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the profile_roles callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-profile_roles" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="profile_roles-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/profile_roles.html">profile_roles<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: adds timing information to roles </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-profile_roles">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-profile_roles">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-profile_roles" role="tabpanel">
+                      <asciinema-player id="player" src="casts/profile_roles.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the profile_roles callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-profile_roles" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Monday 25 March 2019  20:35:12 +0000 (0:00:00.253)       0:00:00.253 **********
@@ -3224,29 +3380,37 @@
       fail -------------------------------------------------------------------- 0.03s
       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       total ------------------------------------------------------------------ 11.02s</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="profile_tasks-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/profile_tasks.html">profile_tasks<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: adds time information to tasks                                                                                                                                        </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-profile_tasks">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-profile_tasks">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-profile_tasks" role="tabpanel">
-                            <asciinema-player id="player" src="casts/profile_tasks.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the profile_tasks callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-profile_tasks" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="profile_tasks-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/profile_tasks.html">profile_tasks<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: adds time information to tasks </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-profile_tasks">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-profile_tasks">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-profile_tasks" role="tabpanel">
+                      <asciinema-player id="player" src="casts/profile_tasks.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the profile_tasks callback module">
+                      </asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-profile_tasks" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Monday 25 March 2019  20:35:24 +0000 (0:00:00.237)       0:00:00.237 **********
@@ -3283,29 +3447,34 @@
       debug module | print custom msg with variables ---------------------------------------------------------------------------------------------------------------------------------------- 0.03s
       debug module | print result variable -------------------------------------------------------------------------------------------------------------------------------------------------- 0.03s
       fail module | let play fail but ignore it --------------------------------------------------------------------------------------------------------------------------------------------- 0.03s</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="selective-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/selective.html">selective<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: only print certain tasks                                                                                                                                              </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-selective">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-selective">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-selective" role="tabpanel">
-                            <asciinema-player id="player" src="casts/selective.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the selective callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-selective" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="selective-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/selective.html">selective<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: only print certain tasks </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-selective">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-selective">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-selective" role="tabpanel">
+                      <asciinema-player id="player" src="casts/selective.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the selective callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-selective" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       ...........
@@ -3319,29 +3488,35 @@
 
       <span class="bold"># STATS *******************************************************************************************************************
       </span><span class="f3">localhost    : ok=14	changed=6	failed=0	unreachable=0</span></code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="skippy-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/skippy.html">skippy<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Ansible screen output that ignores skipped status                                                                                                                     </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-skippy">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-skippy">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-skippy" role="tabpanel">
-                            <asciinema-player id="player" src="casts/skippy.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the skippy callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-skippy" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="skippy-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/skippy.html">skippy<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Ansible screen output that ignores skipped status </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-skippy">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-skippy">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-skippy" role="tabpanel">
+                      <asciinema-player id="player" src="casts/skippy.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the skippy callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-skippy" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -3438,57 +3613,68 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="slack-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/slack.html">slack<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends play events to a Slack channel                                                                                                                                  </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-slack">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-slack">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-slack" role="tabpanel">
-                            <asciinema-player id="player" src="casts/slack.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the slack callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-slack" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="slack-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/slack.html">slack<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends play events to a Slack channel </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-slack">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-slack">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-slack" role="tabpanel">
+                      <asciinema-player id="player" src="casts/slack.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the slack callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-slack" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The `prettytable` python module is not installed. Disabling the Slack callback plugin.
       </span></span>
       <span class="f1">ERROR! No setting was provided for required configuration plugin_type: callback plugin: slack setting: webhook_url </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="splunk-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/splunk.html">splunk<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends task result events to Splunk HTTP Event Collector                                                                                                               </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-splunk">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-splunk">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-splunk" role="tabpanel">
-                            <asciinema-player id="player" src="casts/splunk.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the splunk callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-splunk" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="splunk-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/splunk.html">splunk<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends task result events to Splunk HTTP Event Collector </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-splunk">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-splunk">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-splunk" role="tabpanel">
+                      <asciinema-player id="player" src="casts/splunk.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the splunk callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-splunk" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.
@@ -3500,30 +3686,36 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="stderr-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/stderr.html">stderr<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: formatted stdout/stderr display
-      Splits output, sending failed tasks to stderr                                                                                                                         </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-stderr">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-stderr">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-stderr" role="tabpanel">
-                            <asciinema-player id="player" src="casts/stderr.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the stderr callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-stderr" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="stderr-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/stderr.html">stderr<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: formatted stdout/stderr display
+                    Splits output, sending failed tasks to stderr </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-stderr">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-stderr">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-stderr" role="tabpanel">
+                      <asciinema-player id="player" src="casts/stderr.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the stderr callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-stderr" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -3620,29 +3812,34 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="sumologic-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/sumologic.html">sumologic<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Sends task result events to Sumologic                                                                                                                                 </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-sumologic">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-sumologic">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-sumologic" role="tabpanel">
-                            <asciinema-player id="player" src="casts/sumologic.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the sumologic callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-sumologic" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="sumologic-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/sumologic.html">sumologic<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Sends task result events to Sumologic </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-sumologic">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-sumologic">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-sumologic" role="tabpanel">
+                      <asciinema-player id="player" src="casts/sumologic.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the sumologic callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-sumologic" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: Sumologic HTTP collector source URL was not provided. The Sumologic HTTP collector source URL can be provided using the `SUMOLOGIC_URL` environment variable or in the
@@ -3652,58 +3849,69 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="syslog_json-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/syslog_json.html">syslog_json<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: sends JSON events to syslog                                                                                                                                           </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-syslog_json">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-syslog_json">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-syslog_json" role="tabpanel">
-                            <asciinema-player id="player" src="casts/syslog_json.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the syslog_json callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-syslog_json" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="syslog_json-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/syslog_json.html">syslog_json<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: sends JSON events to syslog </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab"
+                        data-target="#tabone-syslog_json">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-syslog_json">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-syslog_json" role="tabpanel">
+                      <asciinema-player id="player" src="casts/syslog_json.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the syslog_json callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-syslog_json" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="timer-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/timer.html">timer<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Adds time to play stats                                                                                                                                               </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-timer">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-timer">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-timer" role="tabpanel">
-                            <asciinema-player id="player" src="casts/timer.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the timer callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-timer" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="timer-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/timer.html">timer<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Adds time to play stats </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-timer">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-timer">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-timer" role="tabpanel">
+                      <asciinema-player id="player" src="casts/timer.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the timer callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-timer" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Pausing for 1 seconds
@@ -3711,29 +3919,34 @@
       [pause]
       waiting for one second:
       Playbook run took 0 days, 0 hours, 0 minutes, 12 seconds</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="tree-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/tree.html">tree<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: Save host events to files                                                                                                                                             </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-tree">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-tree">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-tree" role="tabpanel">
-                            <asciinema-player id="player" src="casts/tree.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the tree callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-tree" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="tree-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/tree.html">tree<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: Save host events to files </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-tree">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-tree">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-tree" role="tabpanel">
+                      <asciinema-player id="player" src="casts/tree.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the tree callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-tree" role="tabpanel">
+                      <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       <span class="bold"><span class="f5"> [WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was provided: /root/.ansible/tree
@@ -3742,29 +3955,35 @@
       (ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
       [pause]
       waiting for one second:</code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="unixy-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/unixy.html">unixy<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: condensed Ansible output                                                                                                                                              </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-unixy">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-unixy">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-unixy" role="tabpanel">
-                            <asciinema-player id="player" src="casts/unixy.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the unixy callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-unixy" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="unixy-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/unixy.html">unixy<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: condensed Ansible output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-unixy">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-unixy">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-unixy" role="tabpanel">
+                      <asciinema-player id="player" src="casts/unixy.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the unixy callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-unixy" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
       Executing playbook playbook.yml
@@ -4098,29 +4317,35 @@
 
       - Play recap -
         <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="card">
-                      <div class="card-body">
-                                                                              <p><h2><a name="yaml-callback" href="https://docs.ansible.com/ansible/devel/plugins/callback/yaml.html">yaml<i class="fas fa-external-link-alt"></i></a></h2></p>
-                        <p>Description: yaml-ized Ansible screen output                                                                                                                                       </p>
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item">
-                            <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-yaml">Asciicast</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-yaml">Plaintext</a>
-                          </li>
-                        </ul>
-                        <div class="tab-content mt-2">
-                          <div class="tab-pane fade show active" id="tabone-yaml" role="tabpanel">
-                            <asciinema-player id="player" src="casts/yaml.cast" title="actionable" theme="monokai" poster="data:text/plain,Ansible output with the yaml callback module"></asciinema-player>
-                          </div>
-                          <div class="tab-pane fade" id="tabtwo-yaml" role="tabpanel">
-                            <pre class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
+              <div class="card">
+                <div class="card-body">
+                  <p>
+                    <h2><a name="yaml-callback"
+                        href="https://docs.ansible.com/ansible/devel/plugins/callback/yaml.html">yaml<i
+                          class="fas fa-external-link-alt"></i></a></h2>
+                  </p>
+                  <p>Description: yaml-ized Ansible screen output </p>
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone-yaml">Asciicast</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo-yaml">Plaintext</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone-yaml" role="tabpanel">
+                      <asciinema-player id="player" src="casts/yaml.cast" title="actionable" theme="monokai"
+                        poster="data:text/plain,Ansible output with the yaml callback module"></asciinema-player>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo-yaml" role="tabpanel">
+                      <pre
+                        class="pre-scrollable"><code class="language-yaml"><span class="f4">No config file found; using defaults</span>
       <span class="f4">/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected
       /root/hosts did not meet script requirements, check plugin documentation if this is unexpected</span>
 
@@ -4341,11 +4566,10 @@
 
       PLAY RECAP ***********************************************************************************************************************************************************************************
       <span class="f3">localhost</span>                  : <span class="f2">ok=14  </span> <span class="f3">changed=6   </span> unreachable=0    failed=0   </code></pre>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-
+                  </div>
+                </div>
+              </div>
               </p>
             </div>
           </div>
@@ -4356,113 +4580,113 @@
               <h1>Callbacks</h1>
             </li>
             <li>
-                <a href=#actionable-callback>actionable</a>
-              </li>
-              <li>
-                <a href=#cgroup_memory_recap-callback>cgroup_memory_recap</a>
-              </li>
-              <li>
-                <a href=#context_demo-callback>context_demo</a>
-              </li>
-              <li>
-                <a href=#counter_enabled-callback>counter_enabled</a>
-              </li>
-              <li>
-                <a href=#debug-callback>debug</a>
-              </li>
-              <li>
-                <a href=#default-callback>default</a>
-              </li>
-              <li>
-                <a href=#dense-callback>dense</a>
-              </li>
-              <li>
-                <a href=#foreman-callback>foreman</a>
-              </li>
-              <li>
-                <a href=#full_skip-callback>full_skip</a>
-              </li>
-              <li>
-                <a href=#grafana_annotations-callback>grafana_annotations</a>
-              </li>
-              <li>
-                <a href=#hipchat-callback>hipchat</a>
-              </li>
-              <li>
-                <a href=#jabber-callback>jabber</a>
-              </li>
-              <li>
-                <a href=#json-callback>json</a>
-              </li>
-              <li>
-                <a href=#junit-callback>junit</a>
-              </li>
-              <li>
-                <a href=#logdna-callback>logdna</a>
-              </li>
-              <li>
-                <a href=#logentries-callback>logentries</a>
-              </li>
-              <li>
-                <a href=#log_plays-callback>log_plays</a>
-              </li>
-              <li>
-                <a href=#logstash-callback>logstash</a>
-              </li>
-              <li>
-                <a href=#mail-callback>mail</a>
-              </li>
-              <li>
-                <a href=#minimal-callback>minimal</a>
-              </li>
-              <li>
-                <a href=#null-callback>null</a>
-              </li>
-              <li>
-                <a href=#oneline-callback>oneline</a>
-              </li>
-              <li>
-                <a href=#osx_say-callback>osx_say</a>
-              </li>
-              <li>
-                <a href=#profile_roles-callback>profile_roles</a>
-              </li>
-              <li>
-                <a href=#profile_tasks-callback>profile_tasks</a>
-              </li>
-              <li>
-                <a href=#selective-callback>selective</a>
-              </li>
-              <li>
-                <a href=#skippy-callback>skippy</a>
-              </li>
-              <li>
-                <a href=#slack-callback>slack</a>
-              </li>
-              <li>
-                <a href=#splunk-callback>splunk</a>
-              </li>
-              <li>
-                <a href=#stderr-callback>stderr</a>
-              </li>
-              <li>
-                <a href=#sumologic-callback>sumologic</a>
-              </li>
-              <li>
-                <a href=#syslog_json-callback>syslog_json</a>
-              </li>
-              <li>
-                <a href=#timer-callback>timer</a>
-              </li>
-              <li>
-                <a href=#tree-callback>tree</a>
-              </li>
-              <li>
-                <a href=#unixy-callback>unixy</a>
-              </li>
-              <li>
-                <a href=#yaml-callback>yaml</a>
-              </li>
+              <a href=#actionable-callback>actionable</a>
+            </li>
+            <li>
+              <a href=#cgroup_memory_recap-callback>cgroup_memory_recap</a>
+            </li>
+            <li>
+              <a href=#context_demo-callback>context_demo</a>
+            </li>
+            <li>
+              <a href=#counter_enabled-callback>counter_enabled</a>
+            </li>
+            <li>
+              <a href=#debug-callback>debug</a>
+            </li>
+            <li>
+              <a href=#default-callback>default</a>
+            </li>
+            <li>
+              <a href=#dense-callback>dense</a>
+            </li>
+            <li>
+              <a href=#foreman-callback>foreman</a>
+            </li>
+            <li>
+              <a href=#full_skip-callback>full_skip</a>
+            </li>
+            <li>
+              <a href=#grafana_annotations-callback>grafana_annotations</a>
+            </li>
+            <li>
+              <a href=#hipchat-callback>hipchat</a>
+            </li>
+            <li>
+              <a href=#jabber-callback>jabber</a>
+            </li>
+            <li>
+              <a href=#json-callback>json</a>
+            </li>
+            <li>
+              <a href=#junit-callback>junit</a>
+            </li>
+            <li>
+              <a href=#logdna-callback>logdna</a>
+            </li>
+            <li>
+              <a href=#logentries-callback>logentries</a>
+            </li>
+            <li>
+              <a href=#log_plays-callback>log_plays</a>
+            </li>
+            <li>
+              <a href=#logstash-callback>logstash</a>
+            </li>
+            <li>
+              <a href=#mail-callback>mail</a>
+            </li>
+            <li>
+              <a href=#minimal-callback>minimal</a>
+            </li>
+            <li>
+              <a href=#null-callback>null</a>
+            </li>
+            <li>
+              <a href=#oneline-callback>oneline</a>
+            </li>
+            <li>
+              <a href=#osx_say-callback>osx_say</a>
+            </li>
+            <li>
+              <a href=#profile_roles-callback>profile_roles</a>
+            </li>
+            <li>
+              <a href=#profile_tasks-callback>profile_tasks</a>
+            </li>
+            <li>
+              <a href=#selective-callback>selective</a>
+            </li>
+            <li>
+              <a href=#skippy-callback>skippy</a>
+            </li>
+            <li>
+              <a href=#slack-callback>slack</a>
+            </li>
+            <li>
+              <a href=#splunk-callback>splunk</a>
+            </li>
+            <li>
+              <a href=#stderr-callback>stderr</a>
+            </li>
+            <li>
+              <a href=#sumologic-callback>sumologic</a>
+            </li>
+            <li>
+              <a href=#syslog_json-callback>syslog_json</a>
+            </li>
+            <li>
+              <a href=#timer-callback>timer</a>
+            </li>
+            <li>
+              <a href=#tree-callback>tree</a>
+            </li>
+            <li>
+              <a href=#unixy-callback>unixy</a>
+            </li>
+            <li>
+              <a href=#yaml-callback>yaml</a>
+            </li>
           </ul>
         </div>
       </div>

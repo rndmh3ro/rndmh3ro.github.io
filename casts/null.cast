@@ -1,5 +1,8 @@
-{"version": 2, "width": 190, "height": 46, "timestamp": 1553547259, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
-[0.501782, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.521246, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.521467, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[10.582263, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"timestamp": 1553807649, "version": 2, "height": 46, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 95}
+[0.574909, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.595727, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.595815, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.595921, "o", "\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.596203, "o", "\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.598595, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[8.098143, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

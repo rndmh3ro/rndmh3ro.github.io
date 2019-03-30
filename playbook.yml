@@ -1,0 +1,56 @@
+- hosts: localhost
+  tasks:
+    - name: command module | -ls /root as parameter
+      command: "ls /root"
+
+    - name: file module | delete the file /tmp/file
+      file:
+        dest: /tmp/file
+        state: absent
+
+    - name: copy module | create the file /tmp/file
+      copy:
+        content: "{{ inventory_hostname }}\n{{ ansible_nodename }}"
+        dest: /tmp/file
+
+    - name: copy module | change the file /tmp/file
+      copy:
+        content: "{{ inventory_hostname }}\n{{ ansible_nodename }}"
+        dest: /tmp/file
+
+    - name: file module | delete the file /tmp/file
+      file:
+        dest: /tmp/file
+        state: absent
+
+    - name: apt module | install htop
+      apt:
+        name: "htop"
+        state: present
+
+    - name: command module | remove htop to trigger warning
+      command: apt remove htop --yes
+
+    - name: shell module | register result variable
+      shell: /usr/bin/uptime
+      register: result
+
+    - name: debug module | print result variable
+      debug:
+        var: result
+
+    - name: debug module | print custom msg with variables
+      debug:
+        msg: "System {{ inventory_hostname }} has uuid {{ ansible_product_uuid }}"
+
+    - name: fail module | let play fail but ignore it
+      fail:
+        msg: "The task failed but we ignore this"
+      ignore_errors: True
+
+    - assert: { that: "ansible_os_family != 'RedHat'" }
+
+    - pause:
+        seconds: 1
+        prompt: "waiting for one second"
+

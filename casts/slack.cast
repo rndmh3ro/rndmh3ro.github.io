@@ -1,6 +1,7 @@
-{"version": 2, "width": 190, "height": 46, "timestamp": 1553547343, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
-[0.504963, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.523776, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.523868, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.633175, "o", "\u001b[1;35m [WARNING]: The `prettytable` python module is not installed. Disabling the Slack callback plugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.639579, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: slack setting: webhook_url \u001b[0m\r\n"]
+{"width": 95, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 46, "timestamp": 1553807717, "version": 2}
+[0.565711, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.586465, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.586684, "o", "\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.589185, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.708621, "o", "\u001b[1;35m [WARNING]: The `prettytable` python module is not installed. Disabling the Slack callback\u001b[0m\r\n\u001b[1;35mplugin.\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.715335, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: slack setting: webhook_url \u001b[0m\r\n"]
