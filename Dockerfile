@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     locales \
     python3-pip \
     python3 \
-    python3-setuptools
+    python3-setuptools \
+    gawk
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8

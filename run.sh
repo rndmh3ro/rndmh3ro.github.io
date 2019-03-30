@@ -4,7 +4,7 @@ set -x
 for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
-	asciinema rec --overwrite --quiet /tmp/output/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
+	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
 done
 
 echo -n '
@@ -43,9 +43,9 @@ echo -n '
                     class="fas fa-external-link-alt"></i></a> control most of the output you see when running the
                 command line programs, but can also be used to add additional output, integrate with other tools and
                 marshall the
-                events to a storage backend.<br><br>Last updated for Ansible version: 2.7.9</p>' > /home/basti/git/kubernetes/rndmh3ro.github.io/index.html
+                events to a storage backend.<br><br>Last updated for Ansible version: 2.7.9</p>' > /tmp/output/index.html
 
-cd /home/basti/git/kubernetes/rndmh3ro.github.io/casts
+cd /tmp/output/casts
 for i in *; do echo -n "
               <div class=\"card\">
                 <div class=\"card-body\">
@@ -69,7 +69,7 @@ for i in *; do echo -n "
                   </div>
                 </div>
               </div>
-"; done >> /home/basti/git/kubernetes/rndmh3ro.github.io/index.html
+"; done >> /tmp/output/index.html
 
 echo -n '
               </p>
@@ -81,11 +81,11 @@ echo -n '
             <li>
               <h1>Callbacks</h1>
             </li>
-' >> /home/basti/git/kubernetes/rndmh3ro.github.io/index.html
+' >> /tmp/output/index.html
 
 for i in *; do echo "            <li>
               <a href=\"#${i%.cast}-callback\">${i%.cast}</a>
-            </li>" ;done >> /home/basti/git/kubernetes/rndmh3ro.github.io/index.html
+            </li>" ;done >> /tmp/output/index.html
 
 echo -n '
           </ul>
@@ -110,4 +110,4 @@ echo -n '
 </body>
 
 </html>
-' >> /home/basti/git/kubernetes/rndmh3ro.github.io/index.html
+' >> /tmp/output/index.html

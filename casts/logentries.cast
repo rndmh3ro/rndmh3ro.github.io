@@ -1,8 +1,8 @@
-{"width": 95, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1553807619, "height": 46, "version": 2}
-[0.569494, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.590116, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.590268, "o", "\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.590322, "o", "\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.590367, "o", "\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.592842, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.689153, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: logentries setting: token \u001b[0m\r\n"]
+{"width": 190, "version": 2, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 46, "timestamp": 1553957552}
+[0.548579, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.568395, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.568461, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.568542, "o", "\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
+[0.568684, "o", "\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.57109, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
+[0.665316, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: logentries setting: token \u001b[0m\r\n"]
