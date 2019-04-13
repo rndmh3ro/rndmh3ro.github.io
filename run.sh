@@ -3,7 +3,8 @@ set -x
 
 mkdir -p /tmp/output/casts/
 
-for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
+for CALLBACK in actionable; do
+#for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
 	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"

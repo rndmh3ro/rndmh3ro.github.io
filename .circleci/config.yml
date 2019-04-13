@@ -9,7 +9,7 @@ jobs:
           docker_layer_caching: true
       - run: docker build -t ansible_callback .
       - run: docker run -ti ansible_callback:latest
-      - run: docker cp ansible_callback:/tmp/output ~/project/
+      - run: docker cp ansible_callback:/tmp/output/* ~/project/
       - deploy:
           name: update website
           command: |
