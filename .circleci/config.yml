@@ -9,10 +9,11 @@ jobs:
           docker_layer_caching: true
       - run: docker build -t ansible_callback .
       - run: mkdir -p /tmp/output/
-      - run: docker run -ti -v "$(pwd)/casts/:/tmp/output/" ansible_callback:latest
+      - run: docker run -ti -v "$(pwd)/:/tmp/output/" ansible_callback:latest
       - deploy:
           name: update website
           command: |
+            apk add git
             git config credential.helper 'cache --timeout=120'
             git config user.email "github@gumpri.ch"
             git config user.name "Deployment Bot"
