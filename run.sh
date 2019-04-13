@@ -66,7 +66,7 @@ for i in *; do echo -n "
                       <asciinema-player id=\"player\" src=\"casts/$i\" title=\"actionable\" theme=\"monokai\" poster=\"data:text/plain,Ansible output with the ${i%.cast} callback module\"></asciinema-player>
                     </div>
                     <div class=\"tab-pane fade\" id=\"tabtwo-${i%.cast}\" role=\"tabpanel\">
-                      <pre class=\"pre-scrollable\"><code class=\"language-yaml\">$(asciinema cat ${i} | ../ansi2html.sh --body-only)</code></pre>
+                      <pre class=\"pre-scrollable\"><code class=\"language-yaml\">$(asciinema cat ${i} | /root/ansi2html.sh --body-only)</code></pre>
                     </div>
                   </div>
                 </div>
