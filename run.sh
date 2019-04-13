@@ -1,6 +1,8 @@
 #/bin/bash
 set -x
 
+mkdir -p /tmp/output/casts/
+
 for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
   export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}

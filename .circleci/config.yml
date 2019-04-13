@@ -8,9 +8,7 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: true
       - run: docker build -t ansible_callback .
-      - run: mkdir -p /tmp/output/
-      - run: cd ~/project
-      - run: docker run -ti -v "${pwd}/:/tmp/output/" ansible_callback:latest
+      - run: docker run -ti ansible_callback:latest
       - deploy:
           name: update website
           command: |

@@ -8,11 +8,11 @@ Source code for https://rndmh3ro.github.io/
 ### Building
 
 ```
-docker build -t ansible_callback
+docker build -t ansible_callback .
 ```
 
 ### Running
 
 ```
-docker run -ti -v "$(pwd)/casts/:/tmp/output/" ansible_callback:latest
+docker run -ti -v "$(pwd)/casts/:/tmp/output/casts" ansible_callback:latest
 ```
