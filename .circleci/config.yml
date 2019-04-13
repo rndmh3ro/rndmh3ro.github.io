@@ -8,4 +8,15 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: true
       - run: docker build -t ansible_callback .
+      - run: mkdir -p /tmp/output/
       - run: docker run -ti -v "$(pwd)/casts/:/tmp/output/" ansible_callback:latest
+      - deploy:
+          name: update website
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "github@gumpri.ch"
+            git config user.name "Deployment Bot"
+            git add -A
+            git commit --allow-empty -m "Trigger deployment"
+            # Push quietly to prevent showing the token in log
+            git push -q https://${GITHUB_TOKEN}@github.com/rndmh3ro/rndmh3ro.github.io.git testing
