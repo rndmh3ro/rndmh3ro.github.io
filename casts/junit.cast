@@ -1,8 +1,6 @@
-{"version": 2, "width": 190, "height": 46, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "timestamp": 1553957533}
-[0.56926, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.591479, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.591677, "o", "\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.591831, "o", "\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.594389, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[8.134067, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[8.13433, "o", "[pause]\r\nwaiting for one second:\r\n"]
+{"width": 192, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "height": 56, "timestamp": 1594237036, "version": 2}
+[0.534606, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.554951, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.555091, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
+[0.555346, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
+[9.388852, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

@@ -1,10 +1,8 @@
-{"env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 190, "timestamp": 1553957553, "height": 46, "version": 2}
-[0.559496, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.579337, "o", "\u001b[0;34m/root/hosts did not meet host_list requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.579401, "o", "\u001b[0;34m/root/hosts did not meet script requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet yaml requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.579509, "o", "\u001b[0;34m/root/hosts did not meet ini requirements, check plugin documentation if this is unexpected\u001b[0m\r\n\u001b[0;34m/root/hosts did not meet auto requirements, check plugin documentation if this is unexpected\u001b[0m\r\n"]
-[0.579554, "o", "\u001b[1;35m [WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.579613, "o", "\u001b[1;35m [WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.582054, "o", "\u001b[1;35m [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[0.664004, "o", "\u001b[1;35m [WARNING]: The required python-logstash is not installed. pip install python-logstash\u001b[0m\r\n\u001b[1;35m\u001b[0m\r\n"]
-[7.939618, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"width": 95, "version": 2, "height": 56, "timestamp": 1594237222, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.575387, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.59584, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.595906, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
+[0.596385, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
+[1.15733, "o", "\u001b[1;35m[WARNING]: The required python-logstash is not installed. pip install python-logstash\u001b[0m\r\n"]
+[9.139008, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[9.139051, "o", "[pause]\r\nwaiting for one second:\r\n"]

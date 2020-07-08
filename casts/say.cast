@@ -1,0 +1,9 @@
+{"version": 2, "height": 56, "timestamp": 1594237073, "width": 192, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}}
+[0.606325, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.632313, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.632552, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
+[0.63276, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m"]
+[0.632782, "o", "\r\n"]
+[1.239601, "o", "\u001b[1;35m[WARNING]: Unable to find either 'say' or 'espeak' executable, plugin say.py disabled\u001b[0m\r\n"]
+[9.568375, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[9.568518, "o", "[pause]\r\nwaiting for one second:\r\n"]
