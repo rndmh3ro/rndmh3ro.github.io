@@ -7,7 +7,9 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     python3 \
     python3-setuptools \
-    gawk
+    gawk \
+		libssl-dev \
+    libffi-dev 
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
@@ -18,6 +20,7 @@ VOLUME "/tmp/output"
 
 WORKDIR /root/
 COPY requirements.txt /root/
+#RUN pip3 install -U pip
 RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . /root/
 

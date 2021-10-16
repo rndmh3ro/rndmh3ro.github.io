@@ -1,7 +1,0 @@
-{"env": {"SHELL": "/bin/bash", "TERM": "xterm"}, "width": 95, "height": 56, "version": 2, "timestamp": 1594237200}
-[0.548244, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.568192, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.568383, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.568625, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
-[9.042944, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
-[10.049627, "o", "Playbook run took 0 days, 0 hours, 0 minutes, 8 seconds\r\n"]

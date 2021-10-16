@@ -1,6 +1,0 @@
-{"height": 56, "version": 2, "width": 192, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1594237059}
-[0.573367, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.592955, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.593067, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.593405, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[1.180049, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: cgroup_memory_recap setting: cur_mem_file \u001b[0m\r\n"]

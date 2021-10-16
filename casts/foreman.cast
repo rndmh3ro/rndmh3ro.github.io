@@ -1,6 +1,0 @@
-{"height": 56, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "version": 2, "width": 192, "timestamp": 1594237072}
-[0.608246, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.630052, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.630157, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.630496, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[1.23262, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: foreman setting: url \u001b[0m\r\n"]

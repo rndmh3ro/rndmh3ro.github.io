@@ -1,11 +1,10 @@
 #/bin/bash
 set -x
 
-for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
-  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
-  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
-	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
-done
+#for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
+#  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
+#	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
+#done
 
 echo -n '
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,17 +38,19 @@ echo -n '
           <div class="col-md-12">
             <div class="col-md-12">
               <p class="lead">
-                <a href="https://docs.ansible.com/ansible/devel/plugins/callback.html">Ansibles Callback plugins <i
+                <a href="ansible.com/ansible/devel/plugins/callback.html">Ansibles Callback plugins <i
                     class="fas fa-external-link-alt"></i></a> control most of the output you see when running the
                 command line programs, but can also be used to add additional output, integrate with other tools and
                 marshall the
-                events to a storage backend.<br><br>Last updated for Ansible version: 2.7.9</p>' > /tmp/output/index.html
+                events to a storage backend.<br><br>Last updated for Ansible version: 4.6.0</p>' > /tmp/output/index.html
 
 cd /tmp/output/casts
-for i in *; do echo -n "
+for i in *; do
+  export CALLBACK_URL=$(echo ${i%.cast} | sed 's/\./\//g')
+  echo -n "
               <div class=\"card\">
                 <div class=\"card-body\">
-									<p><h2><a name=\"${i%.cast}-callback\" href=\"https://docs.ansible.com/ansible/devel/plugins/callback/${i%.cast}.html\">${i%.cast}<i class=\"fas fa-external-link-alt\"></i></a></h2></p>
+									<p><h2><a name=\"${i%.cast}-callback\" href=\"https://docs.ansible.com/ansible/latest/collections/${CALLBACK_URL}_callback.html\">${i%.cast}<i class=\"fas fa-external-link-alt\"></i></a></h2></p>
                   <p>Description: $(ansible-doc -t callback -l | grep ${i%.cast} | cut -d " " -f 2- | sed 's/^\s*//g') </p>
                   <ul class=\"nav nav-tabs\">
                     <li class=\"nav-item\">

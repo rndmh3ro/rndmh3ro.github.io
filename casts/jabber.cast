@@ -1,8 +1,0 @@
-{"height": 56, "timestamp": 1594237329, "width": 95, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "version": 2}
-[0.561043, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.58152, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.581594, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.581892, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
-[1.154925, "o", "\u001b[1;35m[WARNING]: The required python xmpp library (xmpppy) is not installed. pip install\u001b[0m\r\n\u001b[1;35mgit+https://github.com/ArchipelProject/xmpppy\u001b[0m\r\n"]
-[1.155046, "o", "\u001b[1;35m[WARNING]: Jabber CallBack wants the JABBER_SERV, JABBER_USER, JABBER_PASS and JABBER_TO\u001b[0m\r\n\u001b[1;35menvironment variables\u001b[0m\r\n"]
-[1.155127, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: jabber setting: user \u001b[0m\r\n"]

@@ -1,8 +1,0 @@
-{"timestamp": 1594237295, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "height": 56, "width": 95, "version": 2}
-[0.540848, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.560627, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.560845, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.561104, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
-[1.108191, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source\u001b[0m\r\n\u001b[1;35mURL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[1.108325, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector\u001b[0m\r\n\u001b[1;35mauthentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in\u001b[0m\r\n\u001b[1;35mthe ansible.cfg file.\u001b[0m\r\n"]
-[8.91606, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

@@ -1,8 +1,6 @@
-{"height": 56, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}, "timestamp": 1594237318, "width": 95, "version": 2}
-[0.561211, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.581196, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.58125, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.581739, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
-[1.129533, "o", "\u001b[1;35m[WARNING]: The tree callback is defaulting to ~/.ansible/tree, as an invalid directory was\u001b[0m\r\n\u001b[1;35mprovided: /root/.ansible/tree\u001b[0m\r\n"]
-[9.267802, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[9.26797, "o", "[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1632341816, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.294272, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.299262, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.299433, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
+[0.301944, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
+[7.804675, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]

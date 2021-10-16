@@ -1,6 +1,0 @@
-{"version": 2, "width": 95, "height": 56, "timestamp": 1594237317, "env": {"TERM": "xterm", "SHELL": "/bin/bash"}}
-[0.558948, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.578543, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.578597, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.578986, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit\u001b[0m\r\n\u001b[1;35mlocalhost does not match 'all'\u001b[0m\r\n"]
-[1.134784, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: nrdp setting: token \u001b[0m\r\n"]
