@@ -1,12 +1,15 @@
-#/bin/bash
+#!/bin/bash
 set -x
 
 #for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
+#  export ANSIBLE_DEPRECATION_WARNINGS=False
+#  export ANSIBLE_INVENTORY_UNPARSED_WARNING=False
+#  export ANSIBLE_LOCALHOST_WARNING=False
 #  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
 #	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
 #done
 
-echo -n '
+echo -n "
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -42,7 +45,7 @@ echo -n '
                     class="fas fa-external-link-alt"></i></a> control most of the output you see when running the
                 command line programs, but can also be used to add additional output, integrate with other tools and
                 marshall the
-                events to a storage backend.<br><br>Last updated for Ansible version: 4.6.0</p>' > /tmp/output/index.html
+                events to a storage backend.<br><br>Last updated for $(ansible --version | head -n 1) on $(date -I)</p>" > /tmp/output/index.html
 
 cd /tmp/output/casts
 for i in *; do

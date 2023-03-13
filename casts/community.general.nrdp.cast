@@ -1,6 +1,5 @@
-{"version": 2, "width": 192, "height": 53, "timestamp": 1632341687, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
-[0.294552, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.299336, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.299509, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.301846, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[0.37979, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: ansible_collections.community.general.plugins.callback.nrdp setting: url \u001b[0m\r\n"]
+{"version": 2, "width": 213, "height": 65, "timestamp": 1678727294, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.489569, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.495962, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
+[0.49899, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
+[0.606429, "o", "\u001b[0;31mERROR! No setting was provided for required configuration plugin_type: callback plugin: ansible_collections.community.general.plugins.callback.nrdp setting: url \u001b[0m\r\n"]
