@@ -1,9 +1,6 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678727284, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.379196, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.385017, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.388104, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[0.493869, "o", "\u001b[1;35m[WARNING]: The required python-logstash/python3-logstash is not installed. pip install python-logstash for Python 2pip install python3-logstash for Python 3\u001b[0m\r\n"]
-[8.806281, "o", "Pausing for 1 seconds\r\n"]
-[8.806316, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[8.806329, "o", "[pause]"]
-[8.80636, "o", "\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 213, "height": 65, "timestamp": 1678728601, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.430042, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.436503, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.538076, "o", "\u001b[1;35m[WARNING]: The required python-logstash/python3-logstash is not installed. pip install python-logstash for Python 2pip install python3-logstash for Python 3\u001b[0m\r\n"]
+[8.834848, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[8.834962, "o", "[pause]\r\nwaiting for one second:\r\n"]

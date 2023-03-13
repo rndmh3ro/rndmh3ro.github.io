@@ -1,8 +1,7 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678727327, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.368859, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.37517, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.378254, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[0.487819, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[0.487859, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector authentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[8.645427, "o", "Pausing for 1 seconds\r\n"]
-[8.645531, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 213, "height": 65, "timestamp": 1678728644, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.362159, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.369056, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.483262, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
+[0.483388, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector authentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
+[8.6919, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[8.691997, "o", "[pause]\r\nwaiting for one second:\r\n"]

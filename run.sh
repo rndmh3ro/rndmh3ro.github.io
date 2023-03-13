@@ -1,13 +1,13 @@
 #!/bin/bash
 set -x
 
-#for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
-#  export ANSIBLE_DEPRECATION_WARNINGS=False
-#  export ANSIBLE_INVENTORY_UNPARSED_WARNING=False
-#  export ANSIBLE_LOCALHOST_WARNING=False
-#  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
-#	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
-#done
+for CALLBACK in $(ansible-doc -t callback -l | cut -d ' ' -f 1); do
+  export ANSIBLE_DEPRECATION_WARNINGS=False
+  export ANSIBLE_INVENTORY_UNPARSED_WARNING=False
+  export ANSIBLE_LOCALHOST_WARNING=False
+  export ANSIBLE_STDOUT_CALLBACK=${CALLBACK}
+	asciinema rec --overwrite --quiet /tmp/output/casts/${CALLBACK}.cast --command="ansible-playbook -i /root/hosts /root/playbook.yml -v --diff"
+done
 
 echo -n "
 <html xmlns="http://www.w3.org/1999/xhtml">

@@ -1,6 +1,5 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678727295, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.37391, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.38016, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.383365, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[9.519861, "o", "Pausing for 1 seconds\r\n"]
-[9.519904, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 213, "height": 65, "timestamp": 1678728612, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.356508, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.362549, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[9.094612, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[9.094712, "o", "[pause]\r\nwaiting for one second:\r\n"]

@@ -1,6 +1,4 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678727270, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.390299, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.396291, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.396415, "o", "\u001b[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available\u001b[0m\r\n"]
-[0.399535, "o", "\u001b[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'\u001b[0m\r\n"]
-[0.499066, "o", "\u001b[0;31mERROR! The `elastic-apm` must be installed to use this plugin\u001b[0m\r\n"]
+{"version": 2, "width": 213, "height": 65, "timestamp": 1678728586, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.377949, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.383961, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.482428, "o", "\u001b[0;31mERROR! The `elastic-apm` must be installed to use this plugin\u001b[0m\r\n"]
