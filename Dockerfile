@@ -1,4 +1,4 @@
-FROM asciinema/asciinema
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y \
@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y \
     python3-setuptools \
     gawk \
 		libssl-dev \
-    libffi-dev 
+    libffi-dev \
+    asciinema
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
