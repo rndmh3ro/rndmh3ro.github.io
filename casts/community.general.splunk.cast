@@ -1,7 +1,7 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678728644, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.362159, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.369056, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.483262, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[0.483388, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector authentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[8.6919, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[8.691997, "o", "[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1709460995, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.2063, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.328841, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.43382, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector source URL was not provided. The Splunk HTTP collector source URL can be provided using the `SPLUNK_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
+[0.433891, "o", "\u001b[1;35m[WARNING]: Splunk HTTP collector requires an authenticationtoken. The Splunk HTTP collector authentication token can be provided using the `SPLUNK_AUTHTOKEN` environment variable or in the\u001b[0m\r\n\u001b[1;35mansible.cfg file.\u001b[0m\r\n"]
+[8.367729, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[8.367894, "o", "[pause]\r\nwaiting for one second:\r\n"]

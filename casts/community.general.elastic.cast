@@ -1,4 +1,4 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678728586, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.377949, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.383961, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.482428, "o", "\u001b[0;31mERROR! The `elastic-apm` must be installed to use this plugin\u001b[0m\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1709460941, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.205025, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.32665, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.412553, "o", "\u001b[0;31mERROR! The `elastic-apm` must be installed to use this plugin\u001b[0m\r\n"]

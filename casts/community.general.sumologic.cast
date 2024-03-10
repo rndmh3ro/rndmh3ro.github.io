@@ -1,6 +1,8 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678728653, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.381577, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.387667, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.504513, "o", "\u001b[1;35m[WARNING]: Sumologic HTTP collector source URL was not provided. The Sumologic HTTP collector source URL can be provided using the `SUMOLOGIC_URL` environment variable or in the ansible.cfg file.\u001b[0m\r\n"]
-[8.929769, "o", "Pausing for 1 seconds\r\n"]
-[8.929875, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1709461005, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.205481, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.327317, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.430705, "o", "\u001b[1;35m[WARNING]: Sumologic HTTP collector source URL was not provided. The Sumologic HTTP collector source URL can be provided using the `SUMOLOGIC_URL` environment variable or in the ansible.cfg\u001b[0m\r\n\u001b[1;35mfile.\u001b[0m\r\n"]
+[9.318451, "o", "Pausing for 1 seconds\r\n"]
+[9.318524, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[9.318594, "o", "[pause]\r\n"]
+[9.318718, "o", "waiting for one second:\r\n"]

@@ -1,5 +1,5 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678728588, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.366515, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.372489, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[8.997072, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[8.99712, "o", "[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1709460943, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.210466, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.331214, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[7.900629, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[7.900893, "o", "[pause]\r\nwaiting for one second:\r\n"]

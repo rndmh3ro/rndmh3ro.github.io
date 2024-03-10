@@ -1,6 +1,8 @@
-{"version": 2, "width": 213, "height": 65, "timestamp": 1678728623, "env": {"SHELL": null, "TERM": "xterm"}}
-[0.362305, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
-[0.368259, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
-[0.466324, "o", "\u001b[1;35m[WARNING]: Unable to find either 'say' or 'espeak' executable, plugin say.py disabled\u001b[0m\r\n"]
-[8.528912, "o", "Pausing for 1 seconds\r\n(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
-[8.528999, "o", "[pause]\r\nwaiting for one second:\r\n"]
+{"version": 2, "width": 192, "height": 53, "timestamp": 1709460975, "env": {"SHELL": null, "TERM": "xterm"}}
+[0.209776, "o", "\u001b[0;34mNo config file found; using defaults\u001b[0m\r\n"]
+[0.330495, "o", "\u001b[1;35m[WARNING]: Unable to parse /root/hosts as an inventory source\u001b[0m\r\n"]
+[0.418955, "o", "\u001b[1;35m[WARNING]: Unable to find either 'say' or 'espeak' executable, plugin say.py disabled\u001b[0m\r\n"]
+[8.482357, "o", "Pausing for 1 seconds\r\n"]
+[8.482494, "o", "(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)\r\r\n"]
+[8.482514, "o", "[pause]\r\n"]
+[8.482522, "o", "waiting for one second:\r\n"]
